@@ -1,0 +1,211 @@
+/*Inserta tu css aqui*/
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  }
+body{
+	background-color: #DFDFDF;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.verde{
+	background-color: #009688;
+	width: 100%;
+	height: 90px;
+}
+
+.cajachat { /*no tocar, mantiene flotando la caja sobre el verde y el body plom*/
+	background-color: #E4E1DC;
+	width: 70%;
+	min-height: 80%;
+	z-index: 3;
+	position: absolute;
+	left: 13%;
+	top: 3%;	
+}
+
+.pizarra{
+	background-color: #EEEEEE;
+	border: 1px solid #DCDCDC;	
+	width: 100%;
+	height: 48px;	
+}
+.gian {
+	border-radius: 100%;
+	width: 12%;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+.iconitos{
+	float: right;
+    padding-top: 4%;
+    padding-left: 4%;
+    font-size: 1.1em;
+    color: grey;
+}
+.buscador{
+	padding: 3%;
+    background: white;
+    border-right: 1px solid #D3D3D3;
+    width: 100%;
+}
+.search{
+	padding: 2%;
+	border:1px solid #F3F3F3;
+	text-align: left; 
+}
+input{
+	display: inline-block;
+	width: 100%;
+	border:1px solid #F3F3F3;
+	border-radius: 17px;
+}
+textarea{
+  display: inline-block;
+  width: 100%;
+  border:1px solid #F3F3F3;
+  border-radius: 17px;
+}
+.icon-search{
+	position: absolute;
+	margin: 7px 15px;
+	color: #CACCCF;
+}
+.message{
+	padding: 1% 12%;
+	color: green;
+}
+.listas, .charla{
+	overflow: hidden;
+    overflow-y: scroll;
+    height: 57vh;
+    max-height: 100%;
+    width: 99.9%;
+}
+.per1{
+	padding: 3% 5% 3% 3%;
+    background: white;
+    border-top: 1px solid #D3D3D3;
+}
+.avatar{
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.conversa{
+    display: inline-block;  
+    vertical-align: middle;
+    margin-left: 3%;
+}
+.conversa h4{
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+.dice{
+	font-size: 11.5px;
+}
+.dicek{
+	font-size: 9.5px;
+}
+.hora{
+	float: right;
+	font-size: 9px;
+}
+.charla{
+	background-image: url(../image/chat-panel-bg.png);
+	margin-top: 7%;
+	background-color: #EDE9E4;
+    min-height: 450px;
+    padding:4%;
+    height: 79vh;
+}
+.panelcharla{
+	padding: 1.5% 1% 0px 2%;
+    background-color: white;
+    width: 40%;
+    height: 15%;
+    border-radius: 8px;
+    margin: 3px;
+}
+.hablagian{
+	float: right;
+    clear: right;
+    background: #DCF8C6;
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 7px;
+    height: 10%;
+    border-radius: 8px;
+    margin: 3px;
+}
+.espacioweb{
+	    margin-top: 20%;
+}
+.andrea{
+	color:#AEE7FF;
+}
+.mariana{
+	color: #E762BC;
+}
+.papu{
+	color: #49D3C4;
+}
+.aldo{
+	color: #E8C069;
+}
+.barrafinal{
+	background: #F2F0EE;
+    height: 9vh;
+    padding: 1%;
+    padding-top: 2%;
+}
+.iconof{
+	font-size: 1.5em;
+	margin: auto;
+	color: #AAA9A7;
+	text-align: center;
+}
+.microf{
+	float: right;
+}
+.message2{
+	    padding: 0.6% 4% 0.6%;
+}       
+/* SCROLLBAR CSS3  codigo del scroll*/
+     ::-webkit-scrollbar{
+          width: 10px;
+          background: #dbe8ec;
+        }
+        ::-webkit-scrollbar-button{
+          width:8px;
+          height: 5px;
+        }
+        ::-webkit-scrollbar-track{
+          background: rgba(27, 131, 234, 0);
+    	  border: thin solid rgba(15, 106, 216, 0);
+          -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+          -webkit-border-radius: 10px;
+          border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb{
+          background: -webkit-linear-gradient(top, white, grey);
+          -webkit-box-shadow:   inset 0 1px 0 rgba(255,255,225,.5),
+                        inset 1px 0 0 rgba(255,255,255,.4),
+                        inset 0 1px 2px rgba(255,255,255,.3);
+          border: thin solid rgba(66, 224, 5, 0.02);
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover{
+            background: -webkit-linear-gradient(top, grey, black);
+        }
+        
+        ::-webkit-scrollbar-thumb:window-inactive {
+            background: grey; 
+        }
